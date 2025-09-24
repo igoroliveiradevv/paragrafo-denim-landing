@@ -118,7 +118,7 @@ const Footer = () => {
               © 2024 Parágrafo Denim. Todos os direitos reservados.
             </p>
             <div className="text-beige-light text-sm">
-              CNPJ: XX.XXX.XXX/XXXX-XX
+              CNPJ: 21.951.336/0001-00
             </div>
           </div>
         </div>
