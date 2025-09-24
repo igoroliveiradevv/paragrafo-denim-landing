@@ -17,15 +17,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center">
             <img 
               src={logo} 
               alt="Parágrafo Denim" 
-              className="h-8 md:h-10 w-auto"
+              className="h-10 md:h-12 w-auto"
             />
-            <span className="text-white font-bold text-lg md:text-xl">
-              Parágrafo <span className="font-script text-beige">Denim</span>
-            </span>
           </div>
 
           {/* Desktop Menu */}
