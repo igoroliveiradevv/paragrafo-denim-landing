@@ -1,7 +1,7 @@
 import { Play } from "lucide-react";
 
 const VideoSection = () => {
-  const vimeoURL = "https://vimeo.com/1122337420";
+  
 
   return (
     <section className="py-20 bg-gradient-to-b from-beige-light to-white">
@@ -22,11 +22,14 @@ const VideoSection = () => {
             {/* Video Placeholder with Vimeo Embed */}
             <div className="relative bg-gradient-to-br from-wine to-wine-dark rounded-2xl overflow-hidden shadow-2xl aspect-video">
               <iframe
-                src="https://player.vimeo.com/video/1122337420?h=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                src="https://player.vimeo.com/video/1122337420?badge=0&autopause=0&player_id=0&app_id=58479"
+                width="2160"
+                height="3840"
                 className="absolute inset-0 w-full h-full"
                 frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                title="Parágrafo Denim - Atacado"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                title="IMG_1186"
               ></iframe>
             </div>
           </div>
