@@ -2,7 +2,7 @@ import { MessageCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
-  const whatsappURL = "https://wa.me/556291962521?text=Quero%20vender%20Parágrafo%20Denim%20👉%20Interesse%20em%20ser%20lojista!";
+  const whatsappURL = "https://api.whatsapp.com/send/?phone=5562981441722&text=Quero%20vender%20Parágrafo%20Denim%20👉%20Interesse%20em%20ser%20lojista!";
 
   return (
     <section className="py-20 bg-gradient-to-br from-wine to-wine-dark relative overflow-hidden">
@@ -74,10 +74,10 @@ const FinalCTA = () => {
               Ou ligue diretamente:
             </p>
             <a 
-              href="tel:+556291962521"
+              href="tel:+5562981441722"
               className="text-beige font-bold text-lg hover:text-white transition-colors"
             >
-              +55 62 9196-2521
+              +55 62 9814-4172
             </a>
           </div>
         </div>

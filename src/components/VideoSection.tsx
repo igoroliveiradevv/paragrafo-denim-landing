@@ -1,7 +1,7 @@
 import { Play } from "lucide-react";
 
 const VideoSection = () => {
-  const instagramURL = "https://www.instagram.com/stories/highlights/18070819033473830/";
+  const vimeoURL = "https://vimeo.com/1122337420";
 
   return (
     <section className="py-20 bg-gradient-to-b from-beige-light to-white">
@@ -29,19 +29,19 @@ const VideoSection = () => {
                     </div>
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-4">
-                    Atacado Exclusivo para Lojistas
+                    Mais de 2000 lojistas em todo o Brasil já lucram com Parágrafo Denim
                   </h3>
                   <p className="text-beige-light mb-6 max-w-md mx-auto">
                     Veja depoimentos de lojistas e como funciona nosso processo de vendas
                   </p>
                   <a
-                    href={instagramURL}
+                    href={vimeoURL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 backdrop-blur-sm"
                   >
                     <Play className="w-5 h-5" />
-                    Assistir no Instagram
+                    Assistir Vídeo
                   </a>
                 </div>
               </div>
