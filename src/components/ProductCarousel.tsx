@@ -3,11 +3,18 @@ import { ChevronLeft, ChevronRight, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import model1 from "@/assets/model1.webp";
 import model2 from "@/assets/model2.webp";
+import model3 from "@/assets/model3.webp";
+import model4 from "@/assets/model4.webp";
+import model5 from "@/assets/model5.webp";
+import model6 from "@/assets/model6.webp";
+import model7 from "@/assets/model7.webp";
+import model8 from "@/assets/model8.webp";
+import model9 from "@/assets/model9.webp";
 
 const ProductCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
-  const whatsappURL = "https://wa.me/556291962521?text=Quero%20para%20minha%20loja%20👉%20Parágrafo%20Denim!";
+  const whatsappURL = "https://api.whatsapp.com/send/?phone=5562981441722&text=Quero%20para%20minha%20loja%20👉%20Parágrafo%20Denim!";
 
   const products = [
     {
@@ -21,6 +28,48 @@ const ProductCarousel = () => {
       image: model2,
       title: "Linha Comfort",
       description: "Conforto e estilo em cada peça da nossa coleção",
+    },
+    {
+      id: 3,
+      image: model3,
+      title: "Estilo Urbano",
+      description: "Peças versáteis para o dia a dia moderno",
+    },
+    {
+      id: 4,
+      image: model4,
+      title: "Tendência Atual",
+      description: "O que há de mais novo na moda jeans",
+    },
+    {
+      id: 5,
+      image: model5,
+      title: "Linha Elegance",
+      description: "Sofisticação e elegância em cada detalhe",
+    },
+    {
+      id: 6,
+      image: model6,
+      title: "Casual Chic",
+      description: "Estilo despojado com toque de elegância",
+    },
+    {
+      id: 7,
+      image: model7,
+      title: "Summer Collection",
+      description: "Peças leves e confortáveis para o verão",
+    },
+    {
+      id: 8,
+      image: model8,
+      title: "Street Style",
+      description: "Inspiração urbana para looks autênticos",
+    },
+    {
+      id: 9,
+      image: model9,
+      title: "Fashion Forward",
+      description: "As últimas tendências em moda jeans",
     },
   ];
 

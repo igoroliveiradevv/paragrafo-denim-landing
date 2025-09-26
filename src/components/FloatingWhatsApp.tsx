@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const FloatingWhatsApp = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const whatsappURL = "https://wa.me/556291962521?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações!";
+  const whatsappURL = "https://api.whatsapp.com/send/?phone=5562981441722&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0";
 
   useEffect(() => {
     const timer = setTimeout(() => {

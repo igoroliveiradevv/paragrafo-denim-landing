@@ -4,7 +4,7 @@ import reclameAqui from "@/assets/reclame-aqui.png";
 import googleSiteSeguro from "@/assets/google-site-seguro.png";
 
 const Footer = () => {
-  const whatsappURL = "https://wa.me/556291962521?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações!";
+  const whatsappURL = "https://api.whatsapp.com/send/?phone=5562981441722&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0";
 
   const quickLinks = [
     { name: "Catálogo", href: "#catalogo" },
@@ -79,7 +79,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="text-white font-semibold hover:text-beige transition-colors"
                   >
-                    +55 62 9196-2521
+                    +55 62 9814-4172
                   </a>
                 </div>
               </div>
@@ -89,10 +89,10 @@ const Footer = () => {
                 <div>
                   <p className="text-beige-light text-sm mb-1">Telefone</p>
                   <a 
-                    href="tel:+556291962521"
+                    href="tel:+5562981441722"
                     className="text-white font-semibold hover:text-beige transition-colors"
                   >
-                    +55 62 9196-2521
+                    +55 62 9814-4172
                   </a>
                 </div>
               </div>
