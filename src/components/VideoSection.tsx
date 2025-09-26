@@ -19,35 +19,15 @@ const VideoSection = () => {
         {/* Video Container */}
         <div className="max-w-4xl mx-auto">
           <div className="relative group">
-            {/* Video Placeholder with Instagram Link */}
+            {/* Video Placeholder with Vimeo Embed */}
             <div className="relative bg-gradient-to-br from-wine to-wine-dark rounded-2xl overflow-hidden shadow-2xl aspect-video">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="mb-6">
-                    <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300 backdrop-blur-sm">
-                      <Play className="w-8 h-8 text-white ml-1" />
-                    </div>
-                  </div>
-                  <h3 className="text-2xl font-bold text-white mb-4">
-                    Mais de 2000 lojistas em todo o Brasil já lucram com Parágrafo Denim
-                  </h3>
-                  <p className="text-beige-light mb-6 max-w-md mx-auto">
-                    Veja depoimentos de lojistas e como funciona nosso processo de vendas
-                  </p>
-                  <a
-                    href={vimeoURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 backdrop-blur-sm"
-                  >
-                    <Play className="w-5 h-5" />
-                    Assistir Vídeo
-                  </a>
-                </div>
-              </div>
-              
-              {/* Decorative overlay */}
-              <div className="absolute inset-0 bg-gradient-to-r from-wine/50 via-transparent to-wine-dark/50"></div>
+              <iframe
+                src="https://player.vimeo.com/video/1122337420?h=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                className="absolute inset-0 w-full h-full"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                title="Parágrafo Denim - Atacado"
+              ></iframe>
             </div>
           </div>
 

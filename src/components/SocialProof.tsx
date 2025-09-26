@@ -35,7 +35,7 @@ const SocialProof = () => {
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-black text-wine mb-4">
-            Mais de <span className="text-beige">500 lojistas</span> em todo Brasil<br />
+            Mais de <span className="text-beige">2000 lojistas</span> em todo Brasil<br />
             já lucram com Parágrafo Denim
           </h2>
           <p className="text-lg text-wine/80 max-w-2xl mx-auto">
