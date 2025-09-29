@@ -10,6 +10,7 @@ import model6 from "@/assets/model6.webp";
 import model7 from "@/assets/model7.webp";
 import model8 from "@/assets/model8.webp";
 import model9 from "@/assets/model9.webp";
+import model10 from "@/assets/model10.webp";
 
 const ProductCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -20,56 +21,62 @@ const ProductCarousel = () => {
     {
       id: 1,
       image: model1,
-      title: "Coleção Premium",
+      title: "Linha Luxo",
       description: "Jeans com modelagem perfeita e acabamento exclusivo",
     },
     {
       id: 2,
       image: model2,
-      title: "Linha Comfort",
+      title: "Linha Luxo",
       description: "Conforto e estilo em cada peça da nossa coleção",
     },
     {
       id: 3,
       image: model3,
-      title: "Estilo Urbano",
+      title: "Linha Luxo",
       description: "Peças versáteis para o dia a dia moderno",
     },
     {
       id: 4,
       image: model4,
-      title: "Tendência Atual",
+      title: "Linha Luxo",
       description: "O que há de mais novo na moda jeans",
     },
     {
       id: 5,
       image: model5,
-      title: "Linha Elegance",
+      title: "Linha Luxo",
       description: "Sofisticação e elegância em cada detalhe",
     },
     {
       id: 6,
       image: model6,
-      title: "Casual Chic",
+      title: "Linha Luxo",
       description: "Estilo despojado com toque de elegância",
     },
     {
       id: 7,
       image: model7,
-      title: "Summer Collection",
+      title: "Linha Luxo",
       description: "Peças leves e confortáveis para o verão",
     },
     {
       id: 8,
       image: model8,
-      title: "Street Style",
+      title: "Linha Luxo",
       description: "Inspiração urbana para looks autênticos",
     },
     {
       id: 9,
       image: model9,
-      title: "Fashion Forward",
+      title: "Linha Luxo",
       description: "As últimas tendências em moda jeans",
+    },
+    {
+      id: 10,
+      image: model10,
+      title: "Linha Luxo",
+      description: "Estilo moderno com sofisticação única",
     },
   ];
 

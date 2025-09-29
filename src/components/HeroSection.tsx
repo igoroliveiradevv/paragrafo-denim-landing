@@ -31,8 +31,10 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl lg:text-2xl text-beige-light mb-8 max-w-3xl mx-auto leading-relaxed">
-            Moda jeans que transforma vidas, histórias e lojas.<br />
-            <span className="text-white font-semibold">Fabricação própria em Goiânia</span> com qualidade e alto poder de lucro para lojistas.
+            Nosso Propósito<br />
+            Fazer <span className="text-white font-bold">MODA</span> que<br />
+            transforma <span className="text-white font-bold">VIDAS</span> e<br />
+            marca <span className="text-white font-bold">HISTÓRIAS</span>.
           </p>
 
           {/* CTA Button */}
