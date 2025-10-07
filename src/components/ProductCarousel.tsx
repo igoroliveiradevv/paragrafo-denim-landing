@@ -15,7 +15,7 @@ import model10 from "@/assets/model10.webp";
 const ProductCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
-  const whatsappURL = "https://api.whatsapp.com/send/?phone=5562981441722&text=Quero%20para%20minha%20loja%20👉%20Parágrafo%20Denim!";
+  const whatsappURL = "https://api.whatsapp.com/send/?phone=5562981441722&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0";
 
   const products = [
     {

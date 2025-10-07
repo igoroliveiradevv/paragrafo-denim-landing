@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
-  const whatsappURL = "https://wa.me/556291962521?text=Olá%20cheguei%20pelo%20Google,%20gostaria%20de%20mais%20informações%20sobre%20os%20jeans%20da%20Parágrafo%20Denim!";
+  const whatsappURL = "https://api.whatsapp.com/send/?phone=5562981441722&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0";
 
   return (
     <section 
@@ -25,8 +25,7 @@ const HeroSection = () => {
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             Prazer, somos a<br />
-            <span className="text-beige">Parágrafo</span>{" "}
-            <span className="font-script text-beige-light">Denim</span>!
+            <span className="text-beige">Parágrafo Denim</span>!
           </h1>
 
           {/* Subtitle */}
